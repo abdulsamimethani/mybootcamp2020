@@ -30,4 +30,5 @@ jobs:
     - name: Installing surge
       run: npm install --global surge
     - name: deploying using surge
-      run: surge ./ brief-friends.surge.sh --token $ {{ secrets.MY_TOKEN }} 
+      run: surge ./ brief-friends.surge.sh --token "29ba92ea041a778c17cda5b7902775c9"
+
